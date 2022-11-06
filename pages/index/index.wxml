@@ -1,4 +1,11 @@
- <view class="page-body-wrapper">
+<view wx:if="{{link}}" style="text-align: center;">
+  <view class="container" wx:if="{{tips=='' && qrcode_url!=''}}">
+    <view class="title">请长按下方二维码</view>
+    <image class="qrcode" bindlongpress="longPress" src="{{qrcode_url}}" show-menu-by-longpress="true" mode="widthFix" />
+  </view>
+  <view class="tips" wx:if="{{tips!=''}}">{{tips}}</view>
+</view>
+<view class="page-body-wrapper" wx:else>
   <image class="logo" src='../../image/logo.png' mode='widthFix'></image>
   <image class="bg-img" src='../../image/background.png' mode='widthFix'></image>
   <view class="btn-area">
@@ -7,4 +14,3 @@
     <navigator class="btn btn3" hover-class="none" url="../emotionChoose/emotionChoose"><text class="icon3"></text><text class="text">智斗基地</text></navigator>
   </view>
 </view>
-
