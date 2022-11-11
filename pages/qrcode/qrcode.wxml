@@ -1,0 +1,4 @@
+<view class="container">
+  <view class="title">请长按下方二维码</view>
+  <image class="qrcode" src="{{qrcode_url}}" show-menu-by-longpress="true" mode="widthFix" />
+</view>

@@ -5,6 +5,7 @@
     "pages/modifyPhoto/modify",
     "pages/splicePhoto/splice",
     "pages/emotionChoose/emotionChoose",
+    "pages/qrcode/qrcode",
     "pages/emotionEdit/emotionEdit",
     "pages/spliceMenu/spliceMenu"
   ],
