@@ -82,6 +82,7 @@
   color:#444;
   font-size: 18px;
 }
+
 .qrcode{
   max-width: 100%;
   max-height: 100%;
